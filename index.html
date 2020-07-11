@@ -4,64 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nathan Brock</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon/" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="head">
+      <img src="images/cloud.svg" id="cloud1" alt="cloud-image" />
+      <h1>Nathan Brock</h1>
+      <p><em>Aspiring Fullstack Developer</em></p>
+      <ul class="menu">
+        <li class="nav"><a class="nav" href="work.html">Work</a></li>
+        <li class="nav">
+          <a class="nav" href="resume.pdf" download>Download Resume</a>
+        </li>
+      </ul>
+      <img src="images/cloud.svg" id="cloud2" alt="cloud-image" />
+      <img src="images/lake.svg" alt="lake-image" />
+    </div>
     <img
       src="profile.jpg"
       alt="nathan profile picture"
       style="border-radius: 50%;"
+      id="profile"
     />
-    <h1>Nathan Brock</h1>
-    <p><em>Aspiring Fullstack Developer</em></p>
-    <p>
-      I am a recent linguistics graduate from
-      <a href="https://unwsp.edu/">the University of Northwestern - St. Paul</a
-      >. I am interested in technology because it provides a unique opportunity
-      to help minority languages in a practicle way.
-    </p>
-    <hr size="2" />
-    <h2>Education</h2>
-    <ul>
-      <li>Bachelor of Art</li>
-      <ul>
-        <li>Linguistics</li>
-        <li>Intercultural Studies</li>
-        <li>Biblical Studies</li>
-      </ul>
-      <li>Professional Certificate - Python Data Science (IBM)</li>
-    </ul>
+    <div class="text">
+      <h2>About Me</h2>
+      <p>
+        I am a recent graduate from
+        <a href="https://unwsp.edu/"
+          >the University of Northwestern - St. Paul</a
+        >. I am interested in technology because it provides a unique
+        opportunity to help minority languages in a practicle way.
+      </p>
+    </div>
     <hr />
-    <h2>Skills</h2>
-    <table>
-      <tr>
-        <td>Languages</td>
-        <td>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript/jQuery</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>Frameworks</td>
-      </tr>
-      <tr>
-        <td>Preprocessing</td>
-      </tr>
-      <tr>
-        <td>Version Control</td>
-      </tr>
-      <tr>
-        <td>Testing/Debugging</td>
-      </tr>
-      <tr>
-        <td>Web Performance</td>
-      </tr>
-    </table>
-    <h2>Social Media</h2>
-    <p><a href="https://www.linkedin.com/in/nathankrbrock/">LinkdIn</a></p>
-    <p><a href="https://github.com/nkrbrock">GitHub</a></p>
-    <p><a href="contact.html">Contact Me</a></p>
+    <div class="text">
+      <h2>Education</h2>
+      <p><b>Bachelor of Art</b></p>
+      <p>Linguistics</p>
+      <p>Intercultural Studies</p>
+      <p>Biblical Studies</p>
+      <p><b>Minors</b></p>
+      <p>Science & Theology</p>
+      <p>Chinese Studies</p>
+      <p><b>Professional Certificate</b></p>
+      <p>Python Data Science (IBM)</p>
+    </div>
+    <hr />
+    <div class="text">
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <td>Languages</td>
+          <td>
+            <ul class="lang">
+              <li class="lan">HTML5</li>
+              <li class="lan css">CSS3</li>
+              <li class="lan js">JavaScript/jQuery</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="hide">
+          <td>Frameworks</td>
+        </tr>
+        <tr class="hide">
+          <td>Preprocessing</td>
+        </tr>
+        <tr class="hide">
+          <td>Version Control</td>
+        </tr>
+        <tr class="hide">
+          <td>Testing/Debugging</td>
+        </tr>
+        <tr class="hide">
+          <td>Web Performance</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div class="text social">
+      <h2>Social Media</h2>
+      <span class="link"
+        ><a href="https://www.linkedin.com/in/nathankrbrock/">LinkdIn</a></span
+      >
+      <span class="link"><a href="https://github.com/nkrbrock">GitHub</a></span>
+      <p><a href="contact.html">Contact Me</a></p>
+    </div>
   </body>
 </html>

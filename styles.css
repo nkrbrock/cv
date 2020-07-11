@@ -1,0 +1,141 @@
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+body {
+    background-color: #EAEAEA;
+    margin: 0;
+}
+
+#cloud1 {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+#cloud2{
+    position: absolute;
+    width: 10;
+    height: 100px;
+}
+
+em {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 10px;
+    font-family: 'Merienda One', cursive;
+    font-size: 3.5rem; /*100% & 1rem/em = 16px*/
+}
+
+h2, p {
+    font-family: 'Prata', serif;
+}
+
+.head {
+    background-color: #252A34;
+    color: #EAEAEA;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.head.page,
+.head.page h1 {
+    padding-top: 0 !important;
+}
+
+.head li {
+    list-style: none;
+}
+
+.hide{
+    display: none;
+}
+
+hr{
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    color: #FF2E63;
+    width: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+.lang{
+    margin-left: 25px;
+}
+
+li.nav,
+a.nav {
+    color: #EAEAEA !important;
+    display: inline;
+    padding-right: 5px;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.menu {
+    padding-left: 0;
+}
+
+#profile {
+    display: block;
+    margin: 5px auto;
+}
+
+.text {
+    background-color: #08D9D6;
+    padding: 5px 10px;
+    margin: 5px auto;
+    text-align: center;
+    width: 70%;
+}
+
+.text.social {
+    margin-bottom: 15px;
+}
+
+ul.lang li:first-child::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url('images/html.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+}
+
+ul.lang li.css::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url('images/css.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+}
+
+ul.lang li.js::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url('images/js.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+}
