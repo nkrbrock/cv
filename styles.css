@@ -3,23 +3,37 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #EAEAEA;
+}
+
 body {
     background-color: #EAEAEA;
     margin: 0;
 }
 
+#cloud1,
+#cloud2 {
+    height: 10%;
+    width: 10%;
+}
+
 #cloud1 {
     position: absolute;
     right: 5%;
-    top: 5%;
-    width: 100px;
-    height: 100px;
+    top: 1%;
 }
 
 #cloud2{
     position: absolute;
-    width: 10;
-    height: 100px;
+    left: 20%;
+}
+
+#code-image {
+    float: left;
+    height: 6rem;
+    margin-right: 3rem;
+    width: 6rem;
 }
 
 em {
@@ -28,10 +42,10 @@ em {
 }
 
 h1 {
-    margin-top: 0;
-    padding-top: 10px;
     font-family: 'Merienda One', cursive;
     font-size: 3.5rem; /*100% & 1rem/em = 16px*/
+    margin-top: 0;
+    padding-top: 10px;
 }
 
 h2, p {
@@ -67,12 +81,25 @@ hr{
     width: 50%;
 }
 
+#lake{
+    max-height: 25rem;
+    max-width: 80%;
+}
+
 li {
     list-style: none;
 }
 
 .lang{
+    text-align: left;
     margin-left: 25px;
+}
+
+.languageSkill {
+    margin-left: auto;
+    margin-right:auto;
+    text-align: left;
+    width: 40%;
 }
 
 li.nav,
@@ -95,6 +122,11 @@ a.nav {
     margin: 5px auto;
 }
 
+table {
+    border: 3px dotted #252A34;
+    margin: auto;
+}
+
 .text {
     background-color: #08D9D6;
     padding: 5px 10px;
@@ -108,34 +140,34 @@ a.nav {
 }
 
 ul.lang li:first-child::before {
-    content: '';
-    display: inline-block;
-    height: 15px;
-    width: 15px;
     background-image: url('images/html.png');
     background-size: contain;
     background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
     margin-left: -35px;
+    width: 15px;
 }
 
 ul.lang li.css::before {
-    content: '';
-    display: inline-block;
-    height: 15px;
-    width: 15px;
     background-image: url('images/css.png');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: -35px;
-}
-
-ul.lang li.js::before {
     content: '';
     display: inline-block;
     height: 15px;
+    margin-left: -35px;
     width: 15px;
+}
+
+ul.lang li.js::before {
     background-image: url('images/js.png');
     background-size: contain;
     background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
     margin-left: -35px;
+    width: 15px;
 }
