@@ -4,8 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nathan Brock</title>
-    <link rel="stylesheet" href="styles.css" type="text/css" />
+    
     <link rel="icon" href="favicon.ico" type="image/x-icon/" />
+    
+    <!-- bootstrap cdn -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"
       rel="stylesheet"
@@ -15,15 +27,16 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div class="head">
       <img src="images/cloud.svg" id="cloud1" alt="cloud-image" />
       <h1>Nathan Brock</h1>
       <p><em>Aspiring Fullstack Developer</em></p>
       <ul class="menu">
-        <li class="nav"><a class="nav" href="work.html">Work</a></li>
-        <li class="nav">
-          <a class="nav" href="resume.pdf" download>Download Resume</a>
+        <li class="head-menu"><a  class="head-menu" href="work.html">Work</a></li>
+        <li class="head-menu">
+          <a class="head-menu" href="resume.pdf" download>Download Resume</a>
         </li>
       </ul>
       <img src="images/cloud.svg" id="cloud2" alt="cloud-image" />
@@ -61,29 +74,37 @@
     <hr />
     <div class="text">
       <h2>Skills</h2>
-        <div class="languageSkill">
-          <img src="images/code.svg" id="code-image" alt="code-image"/>
+      <div class="row">
+        <div class="languageSkill col-md-4">
+          <img src="images/code.svg" class="skill-img" id="code-image" alt="code-image"/>
           <p>Languages</p>
-            <ul class="lang">
-              <li class="lan">HTML5</li>
-              <li class="lan css">CSS3</li>
-              <li class="lan js">JavaScript/jQuery</li>
+            <ul>
+              <li class="list-img html">HTML5</li>
+              <li class="list-img css">CSS3</li>
+              <li class="list-img js">JavaScript/jQuery</li>
             </ul>
-          </div>
-        <p class="hide">Frameworks</p>
+        </div>
+        <div class="frameworkSkill col-md-4">
+          <img src="images/frame.svg" class="skill-img" id="frame-image" alt="frame-image"/>
+          <p>Frameworks</p>
+            <ul>
+              <li class="list-img boot">Bootstrap</li>
+            </ul>
+        </div>
         <p class="hide">Preprocessing</p>
         <p class="hide">Version Control</p>
         <p class="hide">Testing/Debugging</p>
         <p class="hide">Web Performance</p>
       </div>
+    </div>
     <hr />
     <div class="text social">
       <h2>Social Media</h2>
       <span class="link"
-        ><a href="https://www.linkedin.com/in/nathankrbrock/">LinkedIn</a></span
+        ><a href="https://www.linkedin.com/in/nathankrbrock/"><i class="linkedin icon fab fa-linkedin fa-2x"></i></a></span
       >
-      <span class="link"><a href="https://github.com/nkrbrock">GitHub</a></span>
-      <p><a href="contact.html">Contact Me</a></p>
+      <span class="link"><a href="https://github.com/nkrbrock"><i class="github icon fab fa-github fa-2x"></i></a></span>
+      <p><a href="contact.html" class="contact">Contact Me</a></p>
     </div>
   </body>
 </html>

@@ -1,39 +1,135 @@
+/* links */
 a {
-    color: #111;
+    color: #111 !important;
     text-decoration: none;
 }
 
 a:hover {
-    color: #EAEAEA;
+    color: #EAEAEA !important;
+    text-decoration: none;
 }
 
-body {
-    background-color: #EAEAEA;
-    margin: 0;
+.contact {
+    font-size: 1.5rem;
 }
 
+.link:hover {
+    cursor: pointer;
+}
+
+
+/* images and icons */
 #cloud1,
 #cloud2 {
     height: 10%;
     width: 10%;
+    position: absolute;
 }
 
 #cloud1 {
-    position: absolute;
     right: 5%;
     top: 1%;
 }
 
 #cloud2{
-    position: absolute;
     left: 20%;
 }
 
-#code-image {
-    float: left;
+.skill-img {
+    position: relative;
     height: 6rem;
-    margin-right: 3rem;
+    margin: 1rem;
     width: 6rem;
+}
+
+.icon {
+    color: #111;
+    margin: 1rem auto 2rem auto;
+}
+
+.linkedin {
+    margin-right: 1rem;
+}
+
+.github {
+    margin-left: 1rem;
+}
+
+.icon:hover {
+    color: white;
+}
+
+#lake{
+    max-height: 25rem;
+    max-width: 80%;
+}
+
+#profile {
+    display: block;
+    margin: 2rem auto;
+}
+
+.languageSkill {
+    text-align: center;
+    width: 80%;
+}
+
+.languageSkill, .frameworkSkill {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* list photos */
+li.html::before {
+    background-image: url('images/html.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.css::before {
+    background-image: url('images/css.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.js::before {
+    background-image: url('images/js.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.boot::before {
+    background-image: url('images/bootstrap.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+
+
+/* regular html elements */
+body {
+    background-color: #EAEAEA;
+    margin: 0;
 }
 
 em {
@@ -48,10 +144,32 @@ h1 {
     padding-top: 10px;
 }
 
+h2 {
+    padding-top: 1rem;
+}
+
 h2, p {
     font-family: 'Prata', serif;
 }
 
+hr{
+    border-width: 5px;
+    border-style: none;
+    border-top: 6px;
+    border-top-style: dotted;
+    color: #FF2E63;
+    width: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+.hide{
+    display: none;
+}
+
+/* header content */
 .head {
     background-color: #252A34;
     color: #EAEAEA;
@@ -60,73 +178,19 @@ h2, p {
     text-align: center;
 }
 
-.head.page,
-.head.page h1 {
-    padding-top: 0 !important;
-}
-
-.head li {
-    list-style: none;
-}
-
-.hide{
-    display: none;
-}
-
-hr{
-    border-width: 5px;
-    border-style: none;
-    border-top-style: dotted;
-    color: #FF2E63;
-    width: 50%;
-}
-
-#lake{
-    max-height: 25rem;
-    max-width: 80%;
-}
-
-li {
-    list-style: none;
-}
-
-.lang{
-    text-align: left;
-    margin-left: 25px;
-}
-
-.languageSkill {
-    margin-left: auto;
-    margin-right:auto;
-    text-align: left;
-    width: 40%;
-}
-
-li.nav,
-a.nav {
+.head-menu {
     color: #EAEAEA !important;
     display: inline;
     padding-right: 5px;
 }
 
-.link:hover {
-    cursor: pointer;
-}
-
 .menu {
-    padding-left: 0;
+    padding-left: auto;
+    padding-right: auto;
 }
 
-#profile {
-    display: block;
-    margin: 5px auto;
-}
 
-table {
-    border: 3px dotted #252A34;
-    margin: auto;
-}
-
+/* containers for content */
 .text {
     background-color: #08D9D6;
     padding: 5px 10px;
@@ -137,37 +201,4 @@ table {
 
 .text.social {
     margin-bottom: 15px;
-}
-
-ul.lang li:first-child::before {
-    background-image: url('images/html.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: '';
-    display: inline-block;
-    height: 15px;
-    margin-left: -35px;
-    width: 15px;
-}
-
-ul.lang li.css::before {
-    background-image: url('images/css.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: '';
-    display: inline-block;
-    height: 15px;
-    margin-left: -35px;
-    width: 15px;
-}
-
-ul.lang li.js::before {
-    background-image: url('images/js.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: '';
-    display: inline-block;
-    height: 15px;
-    margin-left: -35px;
-    width: 15px;
 }
