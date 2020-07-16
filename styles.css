@@ -79,6 +79,17 @@ a:hover {
     margin-right: auto;
 }
 
+.work-img {
+    width: 300px;
+    height: 483px;
+    transform: scale(1);
+    margin: 3rem;
+}
+
+.work-img:hover {
+    transform: scale(1.05);
+}
+
 /* list photos */
 li.html::before {
     background-image: url('images/html.png');
