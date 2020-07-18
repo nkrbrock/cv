@@ -135,7 +135,16 @@ li.boot::before {
     width: 15px;
 }
 
-
+li.jq::before {
+    background-image: url('images/jquery.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
 
 /* regular html elements */
 body {
@@ -159,7 +168,11 @@ h2 {
     padding-top: 1rem;
 }
 
-h2, p {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merienda One', cursive;
+}
+
+p, a, li {
     font-family: 'Prata', serif;
 }
 
