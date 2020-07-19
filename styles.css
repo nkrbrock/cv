@@ -1,11 +1,12 @@
+
 /* links */
 a {
-    color: #111 !important;
+    color: #111;
     text-decoration: none;
 }
 
 a:hover {
-    color: #EAEAEA !important;
+    color: #EAEAEA;
     text-decoration: none;
 }
 
@@ -17,6 +18,19 @@ a:hover {
     cursor: pointer;
 }
 
+/* home button */
+button.btn{
+    margin-top: 5px;
+    margin-left: 50%;
+    margin-right: 50%;
+    text-align: center;
+    background-color: #252A34;
+    padding: 3px;
+}
+
+#home{
+    color: #eaeaea !important;
+}
 
 /* images and icons */
 #cloud1,
@@ -79,15 +93,32 @@ a:hover {
     margin-right: auto;
 }
 
+.row{
+    margin: 0;
+}
+
 .work-img {
-    width: 300px;
-    height: 483px;
+    width: 90%;
+    height: 400px;
     transform: scale(1);
-    margin: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .work-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
+}
+
+.caption {
+    width: 90%;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8rem;
+    background-color: #FF2E63;
 }
 
 /* list photos */
@@ -146,7 +177,10 @@ li.jq::before {
     width: 15px;
 }
 
+
+
 /* regular html elements */
+
 body {
     background-color: #EAEAEA;
     margin: 0;
