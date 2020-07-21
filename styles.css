@@ -123,7 +123,7 @@ button.btn{
 
 /* list photos */
 li.html::before {
-    background-image: url('images/html.png');
+    background-image: url('images/html.svg');
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
@@ -134,7 +134,7 @@ li.html::before {
 }
 
 li.css::before {
-    background-image: url('images/css.png');
+    background-image: url('images/css.svg');
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
@@ -145,7 +145,7 @@ li.css::before {
 }
 
 li.js::before {
-    background-image: url('images/js.png');
+    background-image: url('images/js.svg');
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
@@ -168,6 +168,17 @@ li.boot::before {
 
 li.jq::before {
     background-image: url('images/jquery.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.sass::before {
+    background-image: url('images/sass.svg');
     background-size: contain;
     background-repeat: no-repeat;
     content: '';
