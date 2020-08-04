@@ -99,7 +99,7 @@ button.btn{
 
 .work-img {
     width: 90%;
-    height: 400px;
+    height: 300px;
     transform: scale(1);
     text-align: center;
     margin-top: 1rem;
@@ -188,7 +188,82 @@ li.sass::before {
     width: 15px;
 }
 
+li.node::before {
+    background-image: url('images/nodejs.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
 
+li.git::before {
+    background-image: url('images/git.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.github::before {
+    background-image: url('images/github.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.ejs::before {
+    background-image: url('images/ejs.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.react::before {
+    background-image: url('images/react.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.pass::before {
+    background-image: url('images/passport.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
+
+li.mong::before {
+    background-image: url('images/mongodb.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    height: 15px;
+    margin-left: -35px;
+    width: 15px;
+}
 
 /* regular html elements */
 
