@@ -98,8 +98,10 @@ button.btn{
 }
 
 .work-img {
-    width: 90%;
-    height: 300px;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     transform: scale(1);
     text-align: center;
     margin-top: 1rem;
@@ -110,8 +112,15 @@ button.btn{
     transform: scale(1.05) !important;
 }
 
+.col-md-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 350px;
+}
+
 .caption {
-    width: 90%;
+    max-width: 300px;
     position: relative;
     font-size: 1rem;
     font-weight: 500;
